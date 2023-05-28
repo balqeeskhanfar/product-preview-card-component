@@ -1,0 +1,211 @@
+@media screen and (min-width: 375px) {
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 10px;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+  }
+
+  h1 {
+    font-family: "Fraunces", serif;
+    line-height: 0.85;
+    font-weight: 700;
+    font-size: 27px;
+    color: hsl(212, 21%, 14%);
+  }
+
+  .title {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .price {
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .previous-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+  }
+
+  .offer-price {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+  }
+
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+  }
+
+  div#main {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45vh;
+    height: 80vh;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .info {
+    padding: 0px 20px 20px 20px;
+    box-sizing: border-box;
+    flex: 1 1 88%;
+  }
+
+  .larg-image {
+    display: none;
+  }
+
+  .small-image {
+    display: block;
+  }
+
+  .small-image {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    border-radius: 5px 5px 0px 0px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+  }
+
+  h1 {
+    font-family: "Fraunces", serif;
+    line-height: 0.85;
+
+    font-weight: 700;
+    font-size: 36px;
+    color: hsl(212, 21%, 14%);
+  }
+
+  .title {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .price {
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .previous-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+  }
+
+  .offer-price {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+  }
+
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+  }
+
+  button:hover {
+    background-color: hsl(212, 21%, 14%);
+    transition: 0.7s;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+  }
+
+  div#main {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 626px;
+    height: 470px;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .info {
+    padding: 37px;
+    box-sizing: border-box;
+    flex: 1 1 88%;
+  }
+
+  .small-image {
+    display: none;
+  }
+
+  .larg-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    border-radius: 5px 0px 0px 5px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
